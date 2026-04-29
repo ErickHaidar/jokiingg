@@ -1,6 +1,5 @@
 import Link from "next/link";
 import GameTabs from "@/components/GameTabs";
-import Calculator from "@/components/Calculator";
 
 export default function Home() {
   return (
@@ -33,12 +32,8 @@ export default function Home() {
         </Link>
       </section>
 
-      <section id="katalog" className="container mx-auto px-6 py-10 relative z-10">
+      <section id="katalog" className="container mx-auto px-6 py-10 relative z-40">
         <GameTabs />
-      </section>
-
-      <section className="container mx-auto px-6 py-10 relative z-10">
-        <Calculator />
       </section>
 
       <section id="howto" className="container mx-auto px-6 py-20 relative z-10">
